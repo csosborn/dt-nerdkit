@@ -1540,6 +1540,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="ARDUINOIO1" pad="34"/>
 <via x="103.251" y="20.066" extent="1-16" drill="0.6"/>
 <wire x1="73.66" y1="48.26" x2="73.5838" y2="48.183784375" width="0.1524" layer="1"/>
+<contactref element="LED6" pad="3"/>
 <wire x1="73.5838" y1="48.183784375" x2="71.12" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GNDBREAK">

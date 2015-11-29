@@ -11677,13 +11677,11 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="119.38" y="-58.42"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="99.06" y1="-63.5" x2="99.06" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="-58.42" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="139.7" y="-58.42"/>
-<wire x1="160.02" y1="-50.8" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="LED7" gate="G$1" pin="GND"/>
+<wire x1="139.7" y1="-58.42" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-58.42" x2="180.34" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-58.42" x2="180.34" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="160.02" y="-58.42"/>
 <pinref part="LED8" gate="G$1" pin="GND"/>
 <wire x1="180.34" y1="-58.42" x2="200.66" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-58.42" x2="200.66" y2="-53.34" width="0.1524" layer="91"/>
@@ -11696,6 +11694,9 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="220.98" y1="-58.42" x2="241.3" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-58.42" x2="241.3" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="220.98" y="-58.42"/>
+<pinref part="LED6" gate="G$1" pin="GND"/>
+<wire x1="160.02" y1="-53.34" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="160.02" y="-58.42"/>
 </segment>
 <segment>
 <pinref part="ARDUINOIO1" gate="A" pin="14"/>
@@ -12594,12 +12595,6 @@ Source: http://www.osram.convergy.de/</description>
 <errors>
 <approved hash="104,1,58.42,96.52,CN1,PWR,N$2,,,"/>
 <approved hash="204,1,58.42,93.98,CN1,GNDBREAK,,,,"/>
-<approved hash="104,1,266.7,38.1,U2,GND,AR_GND,,,"/>
-<approved hash="204,1,205.74,15.24,U2,VIN,,,,"/>
-<approved hash="104,1,205.74,17.78,U2,GND1,AR_GND,,,"/>
-<approved hash="104,1,205.74,20.32,U2,GND2,AR_GND,,,"/>
-<approved hash="104,1,205.74,22.86,U2,5V,AR_5V,,,"/>
-<approved hash="104,1,205.74,25.4,U2,3V,AR_3V3,,,"/>
 </errors>
 </schematic>
 </drawing>
